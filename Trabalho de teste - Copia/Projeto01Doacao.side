@@ -1,0 +1,422 @@
+{
+  "id": "0ab306d3-9c41-42e4-b340-19e59918a8d3",
+  "version": "2.0",
+  "name": "Projeto01",
+  "url": "http://www.123formbuilder.com",
+  "tests": [{
+    "id": "8e43f1ca-7c8e-453c-9743-96ef3c22b7be",
+    "name": "Teste 01",
+    "commands": [{
+      "id": "39d45ce9-0a53-42fc-b6c8-35662d3c3503",
+      "comment": "",
+      "command": "open",
+      "target": "/form-5100062/formulario-de-doacao",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ca39dbc-dad3-4f53-9dc1-c5b3d96731fb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db83dd46-3b63-4237-a61d-78e1a1ef2c08",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > div > div > div > div > input",
+      "targets": [
+        ["css=div:nth-child(1) > div > div > div > div > input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3518b19f-bd86-4048-896e-8459a1989279",
+      "comment": "",
+      "command": "type",
+      "target": "css=div:nth-child(1) > div > div > div > div > input",
+      "targets": [
+        ["css=div:nth-child(1) > div > div > div > div > input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Tiago Alves"
+    }, {
+      "id": "40180dda-fc2c-4405-afa2-876255ec1d07",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > div > div > div > div > input",
+      "targets": [
+        ["css=div:nth-child(2) > div > div > div > div > input", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/div[2]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a2bebda-8da1-48b0-ab41-3f60f44fbf4f",
+      "comment": "",
+      "command": "type",
+      "target": "css=div:nth-child(2) > div > div > div > div > input",
+      "targets": [
+        ["css=div:nth-child(2) > div > div > div > div > input", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/div[2]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "tmelo@msn.com"
+    }, {
+      "id": "9f5e5b94-fe71-4711-b610-3972586c1cb8",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) input",
+      "targets": [
+        ["css=div:nth-child(3) input", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/div[3]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d127a44a-488e-4678-91be-7e03abf9df4e",
+      "comment": "",
+      "command": "type",
+      "target": "css=div:nth-child(3) input",
+      "targets": [
+        ["css=div:nth-child(3) input", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/div[3]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Rua Bom Repouso"
+    }, {
+      "id": "f3b8a68c-1651-4c68-bce8-d8f97d3dd28b",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) input",
+      "targets": [
+        ["css=div:nth-child(4) input", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/div[4]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "758a075e-a982-4ebb-98a8-1e8c9d348329",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) input",
+      "targets": [
+        ["css=div:nth-child(4) input", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/div[4]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4aead8d9-c09e-4319-a90c-d1bf7a1671a3",
+      "comment": "",
+      "command": "type",
+      "target": "css=div:nth-child(4) input",
+      "targets": [
+        ["css=div:nth-child(4) input", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/div[4]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "21 98881-4545"
+    }, {
+      "id": "09c5d277-ecd2-4161-89b3-14c53c7eae81",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(5) input",
+      "targets": [
+        ["css=div:nth-child(5) input", "css:finder"],
+        ["xpath=(//input[@type='text'])[5]", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/div[5]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a9cdbb6-64ce-4da8-95b9-75642cf802b9",
+      "comment": "",
+      "command": "type",
+      "target": "css=div:nth-child(5) input",
+      "targets": [
+        ["css=div:nth-child(5) input", "css:finder"],
+        ["xpath=(//input[@type='text'])[5]", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/div[5]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "100,00"
+    }, {
+      "id": "fa986393-1735-4361-bc0d-83da02c59d9a",
+      "comment": "",
+      "command": "click",
+      "target": "css=textarea",
+      "targets": [
+        ["css=textarea", "css:finder"],
+        ["xpath=//form[@id='form']/div/div[2]/div[6]/div/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8928e809-6d6e-4387-92ee-c2dc9917633a",
+      "comment": "",
+      "command": "click",
+      "target": "css=textarea",
+      "targets": [
+        ["css=textarea", "css:finder"],
+        ["xpath=//form[@id='form']/div/div[2]/div[6]/div/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46931482-440a-40b2-99e9-97bb5e0a4248",
+      "comment": "",
+      "command": "type",
+      "target": "css=textarea",
+      "targets": [
+        ["css=textarea", "css:finder"],
+        ["xpath=//form[@id='form']/div/div[2]/div[6]/div/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Sem comentários."
+    }, {
+      "id": "04f0614c-f27d-483e-9e60-74107563ed2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.normal-state",
+      "targets": [
+        ["css=.normal-state", "css:finder"],
+        ["xpath=//form[@id='form']/div/div[3]/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Doar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4005e95a-471d-4eef-9e88-5558c2e97187",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-submissions-count",
+      "targets": [
+        ["css=.form-submissions-count", "css:finder"],
+        ["xpath=//div[@id='forms-list-widget']/div[3]/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a8065db-88fd-4c5a-8679-b19bcb87de35",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "192c42f6-77ba-4faa-9b2c-5c653efd0abe",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "85531792-d658-4eab-9a00-e275cf14e6f0",
+    "name": "Teste 02",
+    "commands": [{
+      "id": "c2e67cc3-ef06-4641-ab38-87518093ee77",
+      "comment": "",
+      "command": "open",
+      "target": "/form-5100062/formulario-de-doacao",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "912f6a31-808a-43d0-928e-d264d61602c3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3fa4034e-2e7a-44ff-b367-6ac9a2d81f7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > div > div > div > div > input",
+      "targets": [
+        ["css=div:nth-child(1) > div > div > div > div > input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8466c0cb-760e-469b-97ac-c693c228ae50",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > div > div > div > div > input",
+      "targets": [
+        ["css=div:nth-child(1) > div > div > div > div > input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "898dbbaf-f5c7-4fa7-b851-636f5d43471b",
+      "comment": "",
+      "command": "type",
+      "target": "css=div:nth-child(1) > div > div > div > div > input",
+      "targets": [
+        ["css=div:nth-child(1) > div > div > div > div > input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Maria de Fátima"
+    }, {
+      "id": "69671f76-05dd-4931-845c-1c74ce9e95f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) input",
+      "targets": [
+        ["css=div:nth-child(3) input", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/div[3]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d5a1ce8-8056-4427-b3a2-cde538899833",
+      "comment": "",
+      "command": "type",
+      "target": "css=div:nth-child(3) input",
+      "targets": [
+        ["css=div:nth-child(3) input", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/div[3]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Rua Taquari"
+    }, {
+      "id": "2bc86b77-b802-4c22-ac57-a628362a15d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) input",
+      "targets": [
+        ["css=div:nth-child(4) input", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/div[4]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "604835c4-c1cc-4776-9f53-ac0ad3fd8638",
+      "comment": "",
+      "command": "type",
+      "target": "css=div:nth-child(4) input",
+      "targets": [
+        ["css=div:nth-child(4) input", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/div[4]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "21 98881-56662"
+    }, {
+      "id": "11907e80-4e0a-45bb-8d3e-cd8b163bfcde",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(5) input",
+      "targets": [
+        ["css=div:nth-child(5) input", "css:finder"],
+        ["xpath=(//input[@type='text'])[5]", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/div[5]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e7641b4-e5fc-4711-9189-4c5aff61de6b",
+      "comment": "",
+      "command": "type",
+      "target": "css=div:nth-child(5) input",
+      "targets": [
+        ["css=div:nth-child(5) input", "css:finder"],
+        ["xpath=(//input[@type='text'])[5]", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/div[5]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "50,00"
+    }, {
+      "id": "972dc643-8826-4604-9c95-2f1a9dd14778",
+      "comment": "",
+      "command": "click",
+      "target": "css=textarea",
+      "targets": [
+        ["css=textarea", "css:finder"],
+        ["xpath=//form[@id='form']/div/div[2]/div[6]/div/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e32d4fa4-3130-4383-ab1d-ae859841b3a5",
+      "comment": "",
+      "command": "type",
+      "target": "css=textarea",
+      "targets": [
+        ["css=textarea", "css:finder"],
+        ["xpath=//form[@id='form']/div/div[2]/div[6]/div/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Nada para comentar."
+    }, {
+      "id": "8b1376b9-9ead-47e5-a87c-9974b2736f82",
+      "comment": "",
+      "command": "click",
+      "target": "css=.normal-state",
+      "targets": [
+        ["css=.normal-state", "css:finder"],
+        ["xpath=//form[@id='form']/div/div[3]/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Doar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d18f028-8882-424a-8d61-197b1b41585f",
+      "comment": "",
+      "command": "click",
+      "target": "css=div > div:nth-child(2) > div:nth-child(2) > div",
+      "targets": [
+        ["css=div > div:nth-child(2) > div:nth-child(2) > div", "css:finder"],
+        ["xpath=//form[@id='form']/div/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0854f31e-2f31-42b9-9815-4cbac2f7c305",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=text-0000000a-error-acc",
+      "targets": [
+        ["id=text-0000000a-error-acc", "id"],
+        ["css=#text-0000000a-error-acc", "css:finder"],
+        ["xpath=//label[@id='text-0000000a-error-acc']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/div[2]/div/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Este campo é obrigatório.')]", "xpath:innerText"]
+      ],
+      "value": "Este campo é obrigatório."
+    }]
+  }],
+  "suites": [{
+    "id": "abfb4d29-cdec-40c2-a941-dcd9855ea1dd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8e43f1ca-7c8e-453c-9743-96ef3c22b7be"]
+  }],
+  "urls": ["http://www.123formbuilder.com/"],
+  "plugins": []
+}
